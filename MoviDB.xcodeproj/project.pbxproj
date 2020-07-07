@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182983B524AE828900991FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182983B424AE828900991FD1 /* AppDelegate.swift */; };
+		182983B724AE828900991FD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182983B624AE828900991FD1 /* SceneDelegate.swift */; };
+		182983B924AE828900991FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182983B824AE828900991FD1 /* ViewController.swift */; };
+		182983BC24AE828900991FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182983BA24AE828900991FD1 /* Main.storyboard */; };
+		182983BE24AE828B00991FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182983BD24AE828B00991FD1 /* Assets.xcassets */; };
+		182983C124AE828B00991FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182983BF24AE828B00991FD1 /* LaunchScreen.storyboard */; };
+		182983D124AE882900991FD1 /* MoviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182983D024AE882900991FD1 /* MoviViewController.swift */; };
+		182983D524AE94B200991FD1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182983D324AE94B200991FD1 /* CollectionViewCell.swift */; };
+		182983D624AE94B200991FD1 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182983D424AE94B200991FD1 /* CollectionViewCell.xib */; };
+		183AC25824B0F1E7006694AE /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC25624B0F1E7006694AE /* DetailTableViewCell.swift */; };
+		183AC25924B0F1E7006694AE /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183AC25724B0F1E7006694AE /* DetailTableViewCell.xib */; };
+		18A8718E24AEACD100714AD8 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8718D24AEACD100714AD8 /* MovieModel.swift */; };
+		18B350CA24AFCC0D001B41EE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B350C924AFCC0D001B41EE /* DetailViewController.swift */; };
+		31962383EA84A8B9206346D1 /* Pods_MoviDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4642A7FA39BDC5B675A0D762 /* Pods_MoviDB.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182983B124AE828900991FD1 /* MoviDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182983B424AE828900991FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182983B624AE828900991FD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182983B824AE828900991FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182983BB24AE828900991FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182983BD24AE828B00991FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182983C024AE828B00991FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182983C224AE828B00991FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182983D024AE882900991FD1 /* MoviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviViewController.swift; sourceTree = "<group>"; };
+		182983D324AE94B200991FD1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		182983D424AE94B200991FD1 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		183AC25624B0F1E7006694AE /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		183AC25724B0F1E7006694AE /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		18A8718D24AEACD100714AD8 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		18B350C924AFCC0D001B41EE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4642A7FA39BDC5B675A0D762 /* Pods_MoviDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoviDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D5CCE55C6E21208AA4C1D9 /* Pods-MoviDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviDB.release.xcconfig"; path = "Target Support Files/Pods-MoviDB/Pods-MoviDB.release.xcconfig"; sourceTree = "<group>"; };
+		BBE88C99021558081C5B3583 /* Pods-MoviDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviDB.debug.xcconfig"; path = "Target Support Files/Pods-MoviDB/Pods-MoviDB.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182983AE24AE828900991FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31962383EA84A8B9206346D1 /* Pods_MoviDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182983A824AE828900991FD1 = {
+			isa = PBXGroup;
+			children = (
+				182983B324AE828900991FD1 /* MoviDB */,
+				182983B224AE828900991FD1 /* Products */,
+				B8E5735B3F0BE49A17218334 /* Pods */,
+				F19C553D6C2FB631BEF05F46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182983B224AE828900991FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182983B124AE828900991FD1 /* MoviDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182983B324AE828900991FD1 /* MoviDB */ = {
+			isa = PBXGroup;
+			children = (
+				182983CE24AE852500991FD1 /* mode */,
+				182983CA24AE836500991FD1 /* data */,
+				182983C924AE835200991FD1 /* Controller */,
+				182983B424AE828900991FD1 /* AppDelegate.swift */,
+				182983B624AE828900991FD1 /* SceneDelegate.swift */,
+				182983BA24AE828900991FD1 /* Main.storyboard */,
+				182983BD24AE828B00991FD1 /* Assets.xcassets */,
+				182983B824AE828900991FD1 /* ViewController.swift */,
+				182983BF24AE828B00991FD1 /* LaunchScreen.storyboard */,
+				182983C224AE828B00991FD1 /* Info.plist */,
+			);
+			path = MoviDB;
+			sourceTree = "<group>";
+		};
+		182983C924AE835200991FD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B350C224AFCB1B001B41EE /* DetailController */,
+				182983CF24AE87B900991FD1 /* MoviController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		182983CA24AE836500991FD1 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		182983CE24AE852500991FD1 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				18A8718D24AEACD100714AD8 /* MovieModel.swift */,
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		182983CF24AE87B900991FD1 /* MoviController */ = {
+			isa = PBXGroup;
+			children = (
+				182983D224AE883000991FD1 /* view */,
+				182983D024AE882900991FD1 /* MoviViewController.swift */,
+			);
+			path = MoviController;
+			sourceTree = "<group>";
+		};
+		182983D224AE883000991FD1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				182983D324AE94B200991FD1 /* CollectionViewCell.swift */,
+				182983D424AE94B200991FD1 /* CollectionViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		183AC25524B0F1C7006694AE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				183AC25624B0F1E7006694AE /* DetailTableViewCell.swift */,
+				183AC25724B0F1E7006694AE /* DetailTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18B350C224AFCB1B001B41EE /* DetailController */ = {
+			isa = PBXGroup;
+			children = (
+				18B350C324AFCB3B001B41EE /* view */,
+				18B350C924AFCC0D001B41EE /* DetailViewController.swift */,
+			);
+			path = DetailController;
+			sourceTree = "<group>";
+		};
+		18B350C324AFCB3B001B41EE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				183AC25524B0F1C7006694AE /* view */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8E5735B3F0BE49A17218334 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBE88C99021558081C5B3583 /* Pods-MoviDB.debug.xcconfig */,
+				83D5CCE55C6E21208AA4C1D9 /* Pods-MoviDB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F19C553D6C2FB631BEF05F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4642A7FA39BDC5B675A0D762 /* Pods_MoviDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182983B024AE828900991FD1 /* MoviDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182983C524AE828B00991FD1 /* Build configuration list for PBXNativeTarget "MoviDB" */;
+			buildPhases = (
+				13FD550778AB09EED0CEDE1D /* [CP] Check Pods Manifest.lock */,
+				182983AD24AE828900991FD1 /* Sources */,
+				182983AE24AE828900991FD1 /* Frameworks */,
+				182983AF24AE828900991FD1 /* Resources */,
+				19BFE57F9EDE79DD7FF8696C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoviDB;
+			productName = MoviDB;
+			productReference = 182983B124AE828900991FD1 /* MoviDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182983A924AE828900991FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					182983B024AE828900991FD1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 182983AC24AE828900991FD1 /* Build configuration list for PBXProject "MoviDB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182983A824AE828900991FD1;
+			productRefGroup = 182983B224AE828900991FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182983B024AE828900991FD1 /* MoviDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182983AF24AE828900991FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182983C124AE828B00991FD1 /* LaunchScreen.storyboard in Resources */,
+				183AC25924B0F1E7006694AE /* DetailTableViewCell.xib in Resources */,
+				182983BE24AE828B00991FD1 /* Assets.xcassets in Resources */,
+				182983D624AE94B200991FD1 /* CollectionViewCell.xib in Resources */,
+				182983BC24AE828900991FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13FD550778AB09EED0CEDE1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoviDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19BFE57F9EDE79DD7FF8696C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoviDB/Pods-MoviDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoviDB/Pods-MoviDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoviDB/Pods-MoviDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182983AD24AE828900991FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A8718E24AEACD100714AD8 /* MovieModel.swift in Sources */,
+				182983D524AE94B200991FD1 /* CollectionViewCell.swift in Sources */,
+				183AC25824B0F1E7006694AE /* DetailTableViewCell.swift in Sources */,
+				182983B924AE828900991FD1 /* ViewController.swift in Sources */,
+				182983D124AE882900991FD1 /* MoviViewController.swift in Sources */,
+				182983B524AE828900991FD1 /* AppDelegate.swift in Sources */,
+				182983B724AE828900991FD1 /* SceneDelegate.swift in Sources */,
+				18B350CA24AFCC0D001B41EE /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182983BA24AE828900991FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182983BB24AE828900991FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182983BF24AE828B00991FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182983C024AE828B00991FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182983C324AE828B00991FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182983C424AE828B00991FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182983C624AE828B00991FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE88C99021558081C5B3583 /* Pods-MoviDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoviDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = learnIOS.MoviDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182983C724AE828B00991FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D5CCE55C6E21208AA4C1D9 /* Pods-MoviDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoviDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = learnIOS.MoviDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182983AC24AE828900991FD1 /* Build configuration list for PBXProject "MoviDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182983C324AE828B00991FD1 /* Debug */,
+				182983C424AE828B00991FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182983C524AE828B00991FD1 /* Build configuration list for PBXNativeTarget "MoviDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182983C624AE828B00991FD1 /* Debug */,
+				182983C724AE828B00991FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182983A924AE828900991FD1 /* Project object */;
+}
